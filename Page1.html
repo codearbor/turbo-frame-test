@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Page1</title>
+  <script type="module">
+    import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+  </script>
+</head>
+<body>
+  <div>
+    <a href="Page1.html">Page1</a> | <a href="Page2.html">Page2</a>
+  </div>
+  <div>
+    <p>Page 1</p>
+    <turbo-frame id="sub" src="Sub.html"></turbo-frame>
+  </div>
+</body>
+</html>
